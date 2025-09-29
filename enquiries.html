@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiries | GreenSprout Eco Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h2>🌱 GreenSprout Eco Store</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="enquiries.html">Enquiries</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Product & Order Enquiries</h1>
+    <form class="form" action="#" method="post" novalidate>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="product">Product of Interest</label>
+      <select id="product" name="product">
+        <option value="">-- Please select --</option>
+        <option value="toothbrush">Bamboo Toothbrush</option>
+        <option value="tote">Reusable Tote Bag</option>
+        <option value="bottle">Stainless Steel Water Bottle</option>
+        <option value="cleaning">Eco Cleaning Kit</option>
+        <option value="compost">Kitchen Compost Bin</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button class="btn" type="submit">Submit Enquiry</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GreenSprout Eco Store</p>
+  </footer>
+
+</body>
+</html>
