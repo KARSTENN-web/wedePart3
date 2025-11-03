@@ -6,6 +6,11 @@
   <title>Products | GreenSprout Eco Store</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<meta name="description" content="GreenSprout Eco Store – eco-friendly essentials for sustainable living. Shop bamboo toothbrushes, tote bags, bottles, and more.">
+<meta name="keywords" content="eco store, sustainable products, green living, zero waste, reusable products, eco-friendly shop">
+<meta name="author" content="GreenSprout Eco Store">
+
+<script src="script.js"></script>
 <body>
 
   <header>
@@ -24,6 +29,18 @@
 
   <main>
     <h1>Our Eco-Friendly Products</h1>
+    <div class="product-controls">
+  <input type="text" id="search" placeholder="Search products...">
+  
+  <select id="sort">
+    <option value="default">Sort by</option>
+    <option value="price-asc">Price: Low to High</option>
+    <option value="price-desc">Price: High to Low</option>
+    <option value="name-asc">Name: A-Z</option>
+    <option value="name-desc">Name: Z-A</option>
+  </select>
+</div>
+
     <section class="products">
       <article class="card">
         <h3>Bamboo Toothbrush</h3>
@@ -59,5 +76,6 @@
     <p>&copy; 2025 GreenSprout Eco Store</p>
   </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
