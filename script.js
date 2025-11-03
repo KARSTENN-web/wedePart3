@@ -1,3 +1,14 @@
+//Code Attributions
+
+   //Author:w3schools
+
+   //Title:HTML
+
+   //Date Published:Copyright 1999-2025
+
+   //Link:https://www.w3schools.com/javascript/
+
+   //Date Accessed:2025/11/03
 document.addEventListener('DOMContentLoaded', () => {
   const forms = document.querySelectorAll('.form');
 
